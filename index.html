@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Product landing page</title>
+
+
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Prompt'>
+
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+  <header id='header'>
+    <nav id="nav-bar">
+      <img id="logo" src="https://logoobject.com/wp-content/uploads/2017/11/Gym-Fitness-Logo-Template-999x999.png" alt="">
+      <div id='nav-menu' class='nav-menu'>
+        <a href='javascript:void(0);' class="icon" onclick='myFunction()'>
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#jumbo" class='nav-link'>
+          <p>Home</p>
+        </a>
+        <a href="#product-title" class='nav-link'>
+          <p>Products</p>
+        </a>
+        <a href="#powerlifting" class='nav-link'>
+          <p>Powerlifting</p>
+        </a>
+        <a href="#form" class='nav-link'>
+          <p>Consultation</p>
+        </a>
+
+      </div>
+    </nav>
+
+    <div id='jumbo'>
+      <div id='jumbo-content'>
+        <h2>Powerlifting Coaching
+          <br> How It Should Be
+        </h2>
+        <h1>Personal</h1>
+        <h3>To be the best, train with the best, worldclass training from record holding athlete and coach </h3>
+        <button>Book Now</button>
+      </div>
+    </div>
+    <h2 id='product-title'>Products</h2>
+    <div id='sales-coaching' class='sales'>
+      <div id="sales-photo">
+        <img id='header-img' src="http://www.titanfitnesscamp.com/wp-content/uploads/2018/04/Meet-the-Titan-Fitness-Coaching-Team-%E2%80%93-Sean-Thomas-6.jpg"
+          alt="">
+      </div>
+      <div id="sales-text">
+        <h5>Online Coaching</h5>
+        <p>1hr</p>
+        <p>£120.00</p>
+        <button>Book Now</button>
+      </div>
+    </div>
+  </header>
+
+  <div id='powerlifting'>
+    <h2>What is Powerlifting</h2>
+    <iframe id='video' width="560" height="315" src="https://www.youtube.com/embed/TMIGc-PqsBc" frameborder="0" allow="autoplay; encrypted-media"
+      allowfullscreen></iframe>
+  </div>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <h2>Book a Consultation</h2>
+    <label for="name" id="name-label">Name:</label>
+    <input type="text" id="name" placeholder="John Hancock" required>
+    <label for="email" id="email-label">Email:</label>
+    <input name="email" type="email" id="email" placeholder="johnhancock@gmail.com" required>
+    <label for="number" id="number-label">Phone number</label>
+    <input type="number" id="number" min="9" max="10" placeholder="07112973132">
+    <label for='dropdown'>How many times do you currently exercise in a week?</label>
+    <select id='dropdown'>
+      <option value='1-10'>1-2</option>
+      <option value='11-20'>3-4</option>
+      <option value='21-30'>5+</option>
+    </select>
+    <label for='dropdown'>Have you ever had Powerlifting coaching before?</label>
+    <select id='dropdown'>
+      <option value='1-10'>Yes</option>
+      <option value='11-20'>No</option>
+      <option value='21-30'>Other Coaching</option>
+    </select>
+    <input id='submit' type='submit' value='submit' class='btn'>
+  </form>
+
+  <footer>
+    <div id="footer-products">
+      <h2>Products</h2>
+      <hr>
+      <a href="">
+        <p class='footer-text'>Coaching</p>
+      </a>
+      <a href="">
+        <p class='footer-text'>Nutrition</p>
+      </a>
+      <a href="">
+        <p class='footer-text'>Seminars</p>
+      </a>
+    </div>
+    <div id="footer-social">
+      <h2>Social</h2>
+      <hr>
+      <a href="">
+        <p class='footer-text'>Facebook</p>
+      </a>
+      <a href="">
+        <p class='footer-text'>Youtube</p>
+      </a>
+      <a href="">
+        <p class='footer-text'>Twitter</p>
+      </a>
+    </div>
+  </footer>
+  <div id='footer-logo'>
+    <img src="https://logoobject.com/wp-content/uploads/2017/11/Gym-Fitness-Logo-Template-999x999.png" alt="">
+  </div>
+
+
+
+  <script src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
